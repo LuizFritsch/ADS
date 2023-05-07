@@ -42,8 +42,7 @@ public class Produto {
           // se o ano for igual, verifica se o mês atual é maior ou igual ao mês da data passada por parâmetro
           if (dataAtual.getMes() <= this.dataValidade.getMes()) {
             // se o mês for igual, verifica se o dia atual é maior ao dia da data passada por parâmetro
-            // levando em conta que um produto vence no dia seguinte ao da data de validade
-            if (dataAtual.getDia() < this.dataValidade.getDia()) {
+            if (dataAtual.getDia() <= this.dataValidade.getDia()) {
               // se a data atual for anterior à data passada por parâmetro, retorna false
               return true;
             }
