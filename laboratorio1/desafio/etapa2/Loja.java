@@ -1,4 +1,4 @@
-public class LojaEtapa2 {
+public class Loja {
     private String nome;
     private int quantidadeFuncionarios;
     private double salarioBaseFuncionario;
@@ -6,7 +6,7 @@ public class LojaEtapa2 {
     private Data dataFundacao;
 
     // Construtor que inicializa todos os atributos
-    public LojaEtapa2(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao) {
+    public Loja(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao) {
         this.nome = nome;
         this.quantidadeFuncionarios = quantidadeFuncionarios;
         this.salarioBaseFuncionario = salarioBaseFuncionario;
@@ -16,7 +16,7 @@ public class LojaEtapa2 {
 
     // Construtor que inicializa apenas nome e quantidade de funcionários,
     // colocando -1 no salário base dos funcionários
-    public LojaEtapa2(String nome, int quantidadeFuncionarios, Endereco endereco, Data dataFundacao) {
+    public Loja(String nome, int quantidadeFuncionarios, Endereco endereco, Data dataFundacao) {
         this.nome = nome;
         this.quantidadeFuncionarios = quantidadeFuncionarios;
         this.endereco = endereco;
