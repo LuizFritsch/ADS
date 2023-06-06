@@ -38,16 +38,17 @@ public class Produto {
 
     public boolean estaVencido(Data dataAtual) {
         // verifica se o ano atual é maior ou igual ao ano da data passada por parâmetro
-        if (dataAtual.getAno() <= this.dataValidade.getAno()) {
+        if (dataAtual.getAno() >= this.dataValidade.getAno()) {
           // se o ano for igual, verifica se o mês atual é maior ou igual ao mês da data passada por parâmetro
-          if (dataAtual.getMes() <= this.dataValidade.getMes()) {
+          if (dataAtual.getMes() >= this.dataValidade.getMes()) {
             // se o mês for igual, verifica se o dia atual é maior ao dia da data passada por parâmetro
-            if (dataAtual.getDia() <= this.dataValidade.getDia()) {
-              // se a data atual for anterior à data passada por parâmetro, retorna false
-              return true;
+            if (dataAtual.getDia() >= this.dataValidade.getDia()) {
+                System.out.println("produto vencido");
+                // se a data atual for anterior à data passada por parâmetro, retorna false
+                return true;
             }
-          }
         }
+    }
         // se a data atual for posterior à data passada por parâmetro, retorna true
         return false;
       }
