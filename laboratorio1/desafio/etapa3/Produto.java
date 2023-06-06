@@ -52,7 +52,6 @@ public class Produto {
           if (dataAtual.getMes() >= this.dataValidade.getMes()) {
             // se o mês for igual, verifica se o dia atual é maior ao dia da data passada por parâmetro
             if (dataAtual.getDia() >= this.dataValidade.getDia()) {
-                System.out.println("produto vencido");
                 // se a data atual for anterior à data passada por parâmetro, retorna false
                 return true;
             }
