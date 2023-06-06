@@ -2,6 +2,8 @@ public class Bijuteria extends Loja{
     private double metaVendas;
     public Bijuteria(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco,
             Data dataFundacao, double metaVendas, int tamanhoEstoqueProdutos) {
+        // tamanhoEstoque nao tinha sido solicitado no enunciado
+        // mas tive que add para funcionar
         super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, tamanhoEstoqueProdutos);
         this.metaVendas = metaVendas;
     }

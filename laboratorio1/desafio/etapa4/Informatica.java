@@ -2,6 +2,8 @@ public class Informatica extends Loja {
     private double seguroEletronicos;
     public Informatica(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco,
             Data dataFundacao, double seguroEletronicos, int tamanhoEstoqueProdutos) {
+        // tamanhoEstoque nao tinha sido solicitado no enunciado
+        // mas tive que add para funcionar
         super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, tamanhoEstoqueProdutos);
         this.seguroEletronicos = seguroEletronicos;
     }
