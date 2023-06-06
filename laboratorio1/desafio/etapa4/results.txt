@@ -1,0 +1,315 @@
+[Laboratório I]
+ Desafio: Validador - Etapa 04
+
+
+[OK] Classe Endereco identificada
+[OK] Método Endereco.setNomeDaRua()
+[OK] Método Endereco.getNomeDaRua()
+[OK] Método Endereco.setCidade()
+[OK] Método Endereco.getCidade()
+[OK] Método Endereco.setEstado()
+[OK] Método Endereco.getEstado()
+[OK] Método Endereco.setPais()
+[OK] Método Endereco.getPais()
+[OK] Método Endereco.setCep()
+[OK] Método Endereco.getCep()
+[OK] Método Endereco.setNumero()
+[OK] Método Endereco.getNumero()
+[OK] Método Endereco.setComplemento()
+[OK] Método Endereco.getComplemento()
+[OK] Método Endereco.toString()
+
+[OK] Classe Data identificada
+[OK] Método Dia.setDia()
+[OK] Método Dia.getDia()
+[OK] Método Dia.setMes()
+[OK] Método Dia.getMes()
+[OK] Método Dia.setAno()
+[OK] Método Dia.getAno()
+[OK] Método Data.toString()
+[OK] Método Dia.verificaAnoBissexto()
+
+[OK] Classe Produto identificada
+[OK] Método Produto.setNome()
+[OK] Método Produto.getNome()
+[OK] Método Produto.setPreco()
+[OK] Método Produto.getPreco()
+[OK] Método Produto.toString()
+[OK] Método Produto.setDataValidade()
+[OK] Método Produto.getDataValidade()
+[OK] Método Produto.estaVencido()
+
+[OK] Classe Loja identificada (construtor com cinco parâmetros)
+[OK] Classe Loja identificada (construtor com seis parâmetros)
+[OK] Método Loja.getNome()
+[OK] Método Loja.setNome()
+[OK] Método Loja.getQuantidadeFuncionarios()
+[OK] Método Loja.setQuantidadeFuncionarios()
+[OK] Método Loja.getSalarioBaseFuncionario()
+[OK] Método Loja.setSalarioBaseFuncionario()
+[OK] Método Loja.getEndereco()
+[OK] Método Loja.setEndereco()
+[OK] Método Loja.getDataFundacao()
+[OK] Método Loja.setDataFundacao()
+[OK] Método Loja.getEstoqueProdutos()
+[OK] Método Loja.toString()
+[OK] Método Loja.gastosComSalario()
+[OK] Método Loja.tamanhoDaLoja()
+[OK] Método Loja.imprimeProdutos()
+[OK] Método Loja.insereProduto() - inclusão de um produto
+[OK] Método Loja.insereProduto() - restante do array permanece vazio
+[OK] Método Loja.insereProduto() - inclusão de dois produtos
+[OK] Método Loja.insereProduto() - não permitiu inclusão de item quando array cheio
+[OK] Método Loja.removeProduto()
+[OK] Método Loja.removeProduto() - não encontrou produto corretamente
+
+[OK] Classe Cosmetico identificada
+[OK] Método Cosmetico.setTaxaComercializacao()
+[OK] Método Cosmetico.getTaxaComercializacao()
+[OK] Método Cosmetico.toString()
+
+[OK] Classe Vestuario identificada
+[OK] Método Vestuario.setProdutosImportados()
+[OK] Método Vestuario.getProdutosImportados()
+[OK] Método Vestuario.toString()
+
+[OK] Classe Bijuteria identificada
+[OK] Método Bijuteria.setMetaVendas()
+[OK] Método Bijuteria.getMetaVendas()
+[OK] Método Bijuteria.toString()
+
+[OK] Classe Alimentacao identificada
+[OK] Método Alimentacao.setDataAlvara()
+[OK] Método Alimentacao.getDataAlvara()
+[OK] Método Alimentacao.toString()
+
+[OK] Classe Informatica identificada
+[OK] Método Informatica.setSeguroEletronicos()
+[OK] Método Informatica.getSeguroEletronicos()
+[OK] Método Informatica.toString()
+
+[OK] Classe Shopping idetificada
+[OK] Método Shopping.setNome()
+[OK] Método Shopping.getNome()
+[OK] Método Shopping.setEndereco()
+[OK] Método Shopping.getEndereco()
+[OK] Método Shopping.getLojas()
+[OK] Método Shopping.insereLoja() - inclusão de uma loja
+[OK] Método Shopping.insereLoja() - restante do array permanece vazio
+[OK] Método Shopping.insereLoja() - inclusão de duas lojas
+[OK] Método Shopping.insereLoja() - não permitiu inclusão de item quando array cheio
+[OK] Método Shopping.quantidadeLojasPorTipo() - localizou uma loja
+[OK] Método Shopping.removeLoja() - removeu corretamente uma loja
+[OK] Método Shopping.removeLoja() - loja não existe para remover
+[OK] Método Shopping.quantidadeLojasPorTipo() - localizou duas lojas
+[OK] Método Shopping.lojaSeguroMaisCaro()
+[Laboratório I]
+ Desafio: Validador - Etapa 04
+
+
+[OK] Classe Endereco identificada
+[OK] Método Endereco.setNomeDaRua()
+[OK] Método Endereco.getNomeDaRua()
+[OK] Método Endereco.setCidade()
+[OK] Método Endereco.getCidade()
+[OK] Método Endereco.setEstado()
+[OK] Método Endereco.getEstado()
+[OK] Método Endereco.setPais()
+[OK] Método Endereco.getPais()
+[OK] Método Endereco.setCep()
+[OK] Método Endereco.getCep()
+[OK] Método Endereco.setNumero()
+[OK] Método Endereco.getNumero()
+[OK] Método Endereco.setComplemento()
+[OK] Método Endereco.getComplemento()
+[OK] Método Endereco.toString()
+
+[OK] Classe Data identificada
+[OK] Método Dia.setDia()
+[OK] Método Dia.getDia()
+[OK] Método Dia.setMes()
+[OK] Método Dia.getMes()
+[OK] Método Dia.setAno()
+[OK] Método Dia.getAno()
+[OK] Método Data.toString()
+[OK] Método Dia.verificaAnoBissexto()
+
+[OK] Classe Produto identificada
+[OK] Método Produto.setNome()
+[OK] Método Produto.getNome()
+[OK] Método Produto.setPreco()
+[OK] Método Produto.getPreco()
+[OK] Método Produto.toString()
+[OK] Método Produto.setDataValidade()
+[OK] Método Produto.getDataValidade()
+[OK] Método Produto.estaVencido()
+
+[OK] Classe Loja identificada (construtor com cinco parâmetros)
+[OK] Classe Loja identificada (construtor com seis parâmetros)
+[OK] Método Loja.getNome()
+[OK] Método Loja.setNome()
+[OK] Método Loja.getQuantidadeFuncionarios()
+[OK] Método Loja.setQuantidadeFuncionarios()
+[OK] Método Loja.getSalarioBaseFuncionario()
+[OK] Método Loja.setSalarioBaseFuncionario()
+[OK] Método Loja.getEndereco()
+[OK] Método Loja.setEndereco()
+[OK] Método Loja.getDataFundacao()
+[OK] Método Loja.setDataFundacao()
+[OK] Método Loja.getEstoqueProdutos()
+[OK] Método Loja.toString()
+[OK] Método Loja.gastosComSalario()
+[OK] Método Loja.tamanhoDaLoja()
+[OK] Método Loja.imprimeProdutos()
+[OK] Método Loja.insereProduto() - inclusão de um produto
+[OK] Método Loja.insereProduto() - restante do array permanece vazio
+[OK] Método Loja.insereProduto() - inclusão de dois produtos
+[OK] Método Loja.insereProduto() - não permitiu inclusão de item quando array cheio
+[OK] Método Loja.removeProduto()
+[OK] Método Loja.removeProduto() - não encontrou produto corretamente
+
+[OK] Classe Cosmetico identificada
+[OK] Método Cosmetico.setTaxaComercializacao()
+[OK] Método Cosmetico.getTaxaComercializacao()
+[OK] Método Cosmetico.toString()
+
+[OK] Classe Vestuario identificada
+[OK] Método Vestuario.setProdutosImportados()
+[OK] Método Vestuario.getProdutosImportados()
+[OK] Método Vestuario.toString()
+
+[OK] Classe Bijuteria identificada
+[OK] Método Bijuteria.setMetaVendas()
+[OK] Método Bijuteria.getMetaVendas()
+[OK] Método Bijuteria.toString()
+
+[OK] Classe Alimentacao identificada
+[OK] Método Alimentacao.setDataAlvara()
+[OK] Método Alimentacao.getDataAlvara()
+[OK] Método Alimentacao.toString()
+
+[OK] Classe Informatica identificada
+[OK] Método Informatica.setSeguroEletronicos()
+[OK] Método Informatica.getSeguroEletronicos()
+[OK] Método Informatica.toString()
+
+[OK] Classe Shopping idetificada
+[OK] Método Shopping.setNome()
+[OK] Método Shopping.getNome()
+[OK] Método Shopping.setEndereco()
+[OK] Método Shopping.getEndereco()
+[OK] Método Shopping.getLojas()
+[OK] Método Shopping.insereLoja() - inclusão de uma loja
+[OK] Método Shopping.insereLoja() - restante do array permanece vazio
+[OK] Método Shopping.insereLoja() - inclusão de duas lojas
+[OK] Método Shopping.insereLoja() - não permitiu inclusão de item quando array cheio
+[OK] Método Shopping.quantidadeLojasPorTipo() - localizou uma loja
+[OK] Método Shopping.removeLoja() - removeu corretamente uma loja
+[OK] Método Shopping.removeLoja() - loja não existe para remover
+[OK] Método Shopping.quantidadeLojasPorTipo() - localizou duas lojas
+[OK] Método Shopping.lojaSeguroMaisCaro()
+[Laboratório I]
+ Desafio: Validador - Etapa 04
+
+
+[OK] Classe Endereco identificada
+[OK] Método Endereco.setNomeDaRua()
+[OK] Método Endereco.getNomeDaRua()
+[OK] Método Endereco.setCidade()
+[OK] Método Endereco.getCidade()
+[OK] Método Endereco.setEstado()
+[OK] Método Endereco.getEstado()
+[OK] Método Endereco.setPais()
+[OK] Método Endereco.getPais()
+[OK] Método Endereco.setCep()
+[OK] Método Endereco.getCep()
+[OK] Método Endereco.setNumero()
+[OK] Método Endereco.getNumero()
+[OK] Método Endereco.setComplemento()
+[OK] Método Endereco.getComplemento()
+[OK] Método Endereco.toString()
+
+[OK] Classe Data identificada
+[OK] Método Dia.setDia()
+[OK] Método Dia.getDia()
+[OK] Método Dia.setMes()
+[OK] Método Dia.getMes()
+[OK] Método Dia.setAno()
+[OK] Método Dia.getAno()
+[OK] Método Data.toString()
+[OK] Método Dia.verificaAnoBissexto()
+
+[OK] Classe Produto identificada
+[OK] Método Produto.setNome()
+[OK] Método Produto.getNome()
+[OK] Método Produto.setPreco()
+[OK] Método Produto.getPreco()
+[OK] Método Produto.toString()
+[OK] Método Produto.setDataValidade()
+[OK] Método Produto.getDataValidade()
+[OK] Método Produto.estaVencido()
+
+[OK] Classe Loja identificada (construtor com cinco parâmetros)
+[OK] Classe Loja identificada (construtor com seis parâmetros)
+[OK] Método Loja.getNome()
+[OK] Método Loja.setNome()
+[OK] Método Loja.getQuantidadeFuncionarios()
+[OK] Método Loja.setQuantidadeFuncionarios()
+[OK] Método Loja.getSalarioBaseFuncionario()
+[OK] Método Loja.setSalarioBaseFuncionario()
+[OK] Método Loja.getEndereco()
+[OK] Método Loja.setEndereco()
+[OK] Método Loja.getDataFundacao()
+[OK] Método Loja.setDataFundacao()
+[OK] Método Loja.getEstoqueProdutos()
+[OK] Método Loja.toString()
+[OK] Método Loja.gastosComSalario()
+[OK] Método Loja.tamanhoDaLoja()
+[OK] Método Loja.imprimeProdutos()
+[OK] Método Loja.insereProduto() - inclusão de um produto
+[OK] Método Loja.insereProduto() - restante do array permanece vazio
+[OK] Método Loja.insereProduto() - inclusão de dois produtos
+[OK] Método Loja.insereProduto() - não permitiu inclusão de item quando array cheio
+[OK] Método Loja.removeProduto()
+[OK] Método Loja.removeProduto() - não encontrou produto corretamente
+
+[OK] Classe Cosmetico identificada
+[OK] Método Cosmetico.setTaxaComercializacao()
+[OK] Método Cosmetico.getTaxaComercializacao()
+[OK] Método Cosmetico.toString()
+
+[OK] Classe Vestuario identificada
+[OK] Método Vestuario.setProdutosImportados()
+[OK] Método Vestuario.getProdutosImportados()
+[OK] Método Vestuario.toString()
+
+[OK] Classe Bijuteria identificada
+[OK] Método Bijuteria.setMetaVendas()
+[OK] Método Bijuteria.getMetaVendas()
+[OK] Método Bijuteria.toString()
+
+[OK] Classe Alimentacao identificada
+[OK] Método Alimentacao.setDataAlvara()
+[OK] Método Alimentacao.getDataAlvara()
+[OK] Método Alimentacao.toString()
+
+[OK] Classe Informatica identificada
+[OK] Método Informatica.setSeguroEletronicos()
+[OK] Método Informatica.getSeguroEletronicos()
+[OK] Método Informatica.toString()
+
+[OK] Classe Shopping idetificada
+[OK] Método Shopping.setNome()
+[OK] Método Shopping.getNome()
+[OK] Método Shopping.setEndereco()
+[OK] Método Shopping.getEndereco()
+[OK] Método Shopping.getLojas()
+[OK] Método Shopping.insereLoja() - inclusão de uma loja
+[OK] Método Shopping.insereLoja() - restante do array permanece vazio
+[OK] Método Shopping.insereLoja() - inclusão de duas lojas
+[OK] Método Shopping.insereLoja() - não permitiu inclusão de item quando array cheio
+[OK] Método Shopping.quantidadeLojasPorTipo() - localizou uma loja
+[OK] Método Shopping.removeLoja() - removeu corretamente uma loja
+[OK] Método Shopping.removeLoja() - loja não existe para remover
+[OK] Método Shopping.quantidadeLojasPorTipo() - localizou duas lojas
+[OK] Método Shopping.lojaSeguroMaisCaro()

@@ -85,11 +85,12 @@ public class Loja {
     // este método não recebe parâmetros e imprime a
     // informação de todos os produtos da loja
     public void imprimeProdutos(){
-        // 
-        if (estoqueProdutos[0] == null) {
-            return;
-        }
+        // tive que adicionar a validacao para elementos nulos
+        // estava dando erro no validador
         for (Produto produto : estoqueProdutos) {
+            if (produto == null) {
+                continue;
+            }
             System.out.println(produto.toString());
         }
     }
