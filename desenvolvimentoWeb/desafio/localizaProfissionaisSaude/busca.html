@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace de Saúde - Busca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="search-container">
+        <h1>Buscar Profissionais de Saúde</h1>
+        <div class="search-bar-container">
+            <input type="text" id="searchBar" placeholder="Buscar por nome, especialidade, localização ou plano de saúde...">
+            <button id="locationButton" title="Usar minha localização">
+                <span>Minha localização</span> 
+                <i id="loadingIcon" class="fas fa-location-arrow" style="margin-left: 5px;"></i> <!-- Movido para dentro do botão -->
+            </button>
+        </div>
+        <div id="planFilters"></div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
